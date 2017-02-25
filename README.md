@@ -56,4 +56,17 @@ Downloaded Cuda DNN library from [https://developer.nvidia.com/rdp/cudnn-downloa
 
 Gunzipped and untarred file. 
 
+Then:
+
+```docker image
+cp cuda/include/cudnn.h /usr/local/cuda/include/
+cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
+chmod a+r /usr/local/cuda/include/cudnn.h
+chmod a+r /usr/local/cuda/lib64/libcudnn*
+
+export CUDA_HOME="/usr/local/cuda-8.0"
+export PATH="${CUDA_HOME}/bin:$PATH"
+export LD_LIBRARY_PATH="${CUDA_HOME}/lib64:$LD_LIBRARY_PATH"
+
+
 
