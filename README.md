@@ -19,6 +19,8 @@ sudo usermod -aG docker <my_username>
 ```
 Log out then log back in to take effect.
 
+## nvidia_anaconda
+
 Went into nvidia/cuda image:
 
 ```shell
@@ -45,6 +47,7 @@ Installed Keras:
 ```shell
 pip install keras
 ```
+## nvidia_tfv1.0
 
 Installed tensorflow:
 
@@ -74,4 +77,10 @@ export PATH="${CUDA_HOME}/bin:$PATH"
 export LD_LIBRARY_PATH="${CUDA_HOME}/lib64:$LD_LIBRARY_PATH"
 
 ```
+
+Tried 
+```shell
+nvidia-smi
+```
+to test if GPU working. 
 
