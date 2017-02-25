@@ -22,7 +22,7 @@ Log out then log back in to take effect.
 Went into nvidia/cuda image:
 
 ```shell
-docker run -it ... /bin/bash
+nvidia-docker run -it ... /bin/bash
 ```
 Inside did:
 
@@ -67,6 +67,5 @@ chmod a+r /usr/local/cuda/lib64/libcudnn*
 export CUDA_HOME="/usr/local/cuda-8.0"
 export PATH="${CUDA_HOME}/bin:$PATH"
 export LD_LIBRARY_PATH="${CUDA_HOME}/lib64:$LD_LIBRARY_PATH"
-
-
+```
 
