@@ -56,7 +56,7 @@ Downloaded Cuda DNN library from [https://developer.nvidia.com/rdp/cudnn-downloa
 
 Gunzipped and untarred file. 
 
-Then:
+Then inside nvidia-docker image:
 
 ```docker
 cp cuda/include/cudnn.h /usr/local/cuda/include/
