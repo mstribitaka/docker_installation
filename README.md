@@ -32,6 +32,14 @@ sudo usermod -aG docker <my_username>
 ```
 Log out then log back in to take effect.
 
+## nvidia_anaconda3
+
+nvidia-docker image with Anaconda3 installed (no keras, tensorflow).
+
+## nvidia_ktf
+
+nvidia-docker image built on Anaconda3 with Keras 2.0 and Tensorflow 1.0 (GPU).
+
 ## nvidia_anaconda
 
 Went into nvidia/cuda image:
