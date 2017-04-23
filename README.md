@@ -38,7 +38,7 @@ nvidia-docker image with Anaconda3 installed (no keras, tensorflow).
 
 ## nvidia_ktf
 
-nvidia-docker image built on Anaconda3 with Keras 2.0 and Tensorflow 1.0 (GPU).
+nvidia-docker image built on Anaconda nvidia_anaconda with Keras 2.0 and Tensorflow 1.0 (GPU).
 
 ## nvidia_anaconda
 
