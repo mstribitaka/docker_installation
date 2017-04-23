@@ -9,6 +9,19 @@ Followed instructions at [https://docs.docker.com/engine/installation/linux/ubun
 
 Instructions at [https://github.com/NVIDIA/nvidia-docker/]
 
+### Note: problem running nvidia-docker a few months after first installing
+
+Had to do:
+
+```
+sudo apt-get purge nvidia-*
+sudo apt-get update
+sudo apt-get install nvidia-375
+sudo apt-get install nvidia-modprobe
+```
+Then followed installation instructions at nvidia-docker link above.
+
+
 Added myself to docker group:
 
 ```shell
